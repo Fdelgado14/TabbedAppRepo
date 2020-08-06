@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980FEBF024DC8DAC00CAC7E8 /* 216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png in Resources */ = {isa = PBXBuildFile; fileRef = 980FEBEF24DC8DAC00CAC7E8 /* 216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png */; };
+		982A94C624DC808400F93CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A94C524DC808400F93CB8 /* AppDelegate.swift */; };
+		982A94C824DC808400F93CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A94C724DC808400F93CB8 /* SceneDelegate.swift */; };
+		982A94CA24DC808400F93CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A94C924DC808400F93CB8 /* ViewController.swift */; };
+		982A94CD24DC808400F93CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982A94CB24DC808400F93CB8 /* Main.storyboard */; };
+		982A94CF24DC808600F93CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982A94CE24DC808600F93CB8 /* Assets.xcassets */; };
+		982A94D224DC808600F93CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982A94D024DC808600F93CB8 /* LaunchScreen.storyboard */; };
+		982A94DD24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A94DC24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.swift */; };
+		982A94E824DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A94E724DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.swift */; };
+		982A94F824DC84A800F93CB8 /* 4596_copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 982A94F724DC84A800F93CB8 /* 4596_copy.jpg */; };
+		982A94FA24DC855000F93CB8 /* 3c69bdf91a0c8f0f70299dd2e66da40f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 982A94F924DC855000F93CB8 /* 3c69bdf91a0c8f0f70299dd2e66da40f.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		982A94D924DC808600F93CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982A94BA24DC808400F93CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982A94C124DC808400F93CB8;
+			remoteInfo = Fernando_D_TabbedApp_Exercise;
+		};
+		982A94E424DC808600F93CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982A94BA24DC808400F93CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982A94C124DC808400F93CB8;
+			remoteInfo = Fernando_D_TabbedApp_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980FEBEF24DC8DAC00CAC7E8 /* 216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png"; sourceTree = "<group>"; };
+		982A94C224DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fernando_D_TabbedApp_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982A94C524DC808400F93CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		982A94C724DC808400F93CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		982A94C924DC808400F93CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		982A94CC24DC808400F93CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		982A94CE24DC808600F93CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982A94D124DC808600F93CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		982A94D324DC808600F93CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982A94D824DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fernando_D_TabbedApp_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		982A94DC24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fernando_D_TabbedApp_ExerciseTests.swift; sourceTree = "<group>"; };
+		982A94DE24DC808600F93CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982A94E324DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fernando_D_TabbedApp_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		982A94E724DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fernando_D_TabbedApp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		982A94E924DC808600F93CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982A94F724DC84A800F93CB8 /* 4596_copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4596_copy.jpg; sourceTree = "<group>"; };
+		982A94F924DC855000F93CB8 /* 3c69bdf91a0c8f0f70299dd2e66da40f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3c69bdf91a0c8f0f70299dd2e66da40f.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982A94BF24DC808400F93CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94D524DC808600F93CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94E024DC808600F93CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982A94B924DC808400F93CB8 = {
+			isa = PBXGroup;
+			children = (
+				982A94C424DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */,
+				982A94DB24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests */,
+				982A94E624DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests */,
+				982A94C324DC808400F93CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982A94C324DC808400F93CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982A94C224DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise.app */,
+				982A94D824DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.xctest */,
+				982A94E324DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982A94C424DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				982A94C524DC808400F93CB8 /* AppDelegate.swift */,
+				982A94C724DC808400F93CB8 /* SceneDelegate.swift */,
+				982A94C924DC808400F93CB8 /* ViewController.swift */,
+				982A94CB24DC808400F93CB8 /* Main.storyboard */,
+				982A94CE24DC808600F93CB8 /* Assets.xcassets */,
+				982A94D024DC808600F93CB8 /* LaunchScreen.storyboard */,
+				982A94D324DC808600F93CB8 /* Info.plist */,
+				980FEBEF24DC8DAC00CAC7E8 /* 216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png */,
+				982A94F724DC84A800F93CB8 /* 4596_copy.jpg */,
+				982A94F924DC855000F93CB8 /* 3c69bdf91a0c8f0f70299dd2e66da40f.jpg */,
+			);
+			path = Fernando_D_TabbedApp_Exercise;
+			sourceTree = "<group>";
+		};
+		982A94DB24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				982A94DC24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.swift */,
+				982A94DE24DC808600F93CB8 /* Info.plist */,
+			);
+			path = Fernando_D_TabbedApp_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		982A94E624DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				982A94E724DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.swift */,
+				982A94E924DC808600F93CB8 /* Info.plist */,
+			);
+			path = Fernando_D_TabbedApp_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982A94C124DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982A94EC24DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_Exercise" */;
+			buildPhases = (
+				982A94BE24DC808400F93CB8 /* Sources */,
+				982A94BF24DC808400F93CB8 /* Frameworks */,
+				982A94C024DC808400F93CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fernando_D_TabbedApp_Exercise;
+			productName = Fernando_D_TabbedApp_Exercise;
+			productReference = 982A94C224DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		982A94D724DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982A94EF24DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_ExerciseTests" */;
+			buildPhases = (
+				982A94D424DC808600F93CB8 /* Sources */,
+				982A94D524DC808600F93CB8 /* Frameworks */,
+				982A94D624DC808600F93CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982A94DA24DC808600F93CB8 /* PBXTargetDependency */,
+			);
+			name = Fernando_D_TabbedApp_ExerciseTests;
+			productName = Fernando_D_TabbedApp_ExerciseTests;
+			productReference = 982A94D824DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		982A94E224DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982A94F224DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_ExerciseUITests" */;
+			buildPhases = (
+				982A94DF24DC808600F93CB8 /* Sources */,
+				982A94E024DC808600F93CB8 /* Frameworks */,
+				982A94E124DC808600F93CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982A94E524DC808600F93CB8 /* PBXTargetDependency */,
+			);
+			name = Fernando_D_TabbedApp_ExerciseUITests;
+			productName = Fernando_D_TabbedApp_ExerciseUITests;
+			productReference = 982A94E324DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982A94BA24DC808400F93CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fernando Delgado";
+				TargetAttributes = {
+					982A94C124DC808400F93CB8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					982A94D724DC808600F93CB8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 982A94C124DC808400F93CB8;
+					};
+					982A94E224DC808600F93CB8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 982A94C124DC808400F93CB8;
+					};
+				};
+			};
+			buildConfigurationList = 982A94BD24DC808400F93CB8 /* Build configuration list for PBXProject "Fernando_D_TabbedApp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982A94B924DC808400F93CB8;
+			productRefGroup = 982A94C324DC808400F93CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982A94C124DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */,
+				982A94D724DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests */,
+				982A94E224DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982A94C024DC808400F93CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982A94D224DC808600F93CB8 /* LaunchScreen.storyboard in Resources */,
+				980FEBF024DC8DAC00CAC7E8 /* 216-2165864_golden-mouse-rodent-gerbil-hamsters-transprent-hamster-png.png in Resources */,
+				982A94CF24DC808600F93CB8 /* Assets.xcassets in Resources */,
+				982A94FA24DC855000F93CB8 /* 3c69bdf91a0c8f0f70299dd2e66da40f.jpg in Resources */,
+				982A94F824DC84A800F93CB8 /* 4596_copy.jpg in Resources */,
+				982A94CD24DC808400F93CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94D624DC808600F93CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94E124DC808600F93CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982A94BE24DC808400F93CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982A94CA24DC808400F93CB8 /* ViewController.swift in Sources */,
+				982A94C624DC808400F93CB8 /* AppDelegate.swift in Sources */,
+				982A94C824DC808400F93CB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94D424DC808600F93CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982A94DD24DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982A94DF24DC808600F93CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982A94E824DC808600F93CB8 /* Fernando_D_TabbedApp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982A94DA24DC808600F93CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982A94C124DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */;
+			targetProxy = 982A94D924DC808600F93CB8 /* PBXContainerItemProxy */;
+		};
+		982A94E524DC808600F93CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982A94C124DC808400F93CB8 /* Fernando_D_TabbedApp_Exercise */;
+			targetProxy = 982A94E424DC808600F93CB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		982A94CB24DC808400F93CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982A94CC24DC808400F93CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		982A94D024DC808600F93CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982A94D124DC808600F93CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982A94EA24DC808600F93CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		982A94EB24DC808600F93CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982A94ED24DC808600F93CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982A94EE24DC808600F93CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		982A94F024DC808600F93CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fernando_D_TabbedApp_Exercise.app/Fernando_D_TabbedApp_Exercise";
+			};
+			name = Debug;
+		};
+		982A94F124DC808600F93CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fernando_D_TabbedApp_Exercise.app/Fernando_D_TabbedApp_Exercise";
+			};
+			name = Release;
+		};
+		982A94F324DC808600F93CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fernando_D_TabbedApp_Exercise;
+			};
+			name = Debug;
+		};
+		982A94F424DC808600F93CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fernando_D_TabbedApp_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Fernando-D-TabbedApp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fernando_D_TabbedApp_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982A94BD24DC808400F93CB8 /* Build configuration list for PBXProject "Fernando_D_TabbedApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982A94EA24DC808600F93CB8 /* Debug */,
+				982A94EB24DC808600F93CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982A94EC24DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982A94ED24DC808600F93CB8 /* Debug */,
+				982A94EE24DC808600F93CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982A94EF24DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982A94F024DC808600F93CB8 /* Debug */,
+				982A94F124DC808600F93CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982A94F224DC808600F93CB8 /* Build configuration list for PBXNativeTarget "Fernando_D_TabbedApp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982A94F324DC808600F93CB8 /* Debug */,
+				982A94F424DC808600F93CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982A94BA24DC808400F93CB8 /* Project object */;
+}

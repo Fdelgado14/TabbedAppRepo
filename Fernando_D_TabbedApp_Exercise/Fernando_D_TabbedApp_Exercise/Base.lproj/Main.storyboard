@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AWi-uD-dKi">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dwarf Hamster-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fernando_D_TabbedApp_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4596_copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zcg-zM-Jgu">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zcg-zM-Jgu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IfD-bI-fz8"/>
+                            <constraint firstItem="zcg-zM-Jgu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JRI-dh-ltb"/>
+                            <constraint firstItem="zcg-zM-Jgu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iK1-0p-zFp"/>
+                            <constraint firstItem="zcg-zM-Jgu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rZL-qM-2Vb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dwarf Hamster" image="sunset.fill" catalog="system" id="f2W-8u-9lb">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
+        </scene>
+        <!--Syrian Hamster-->
+        <scene sceneID="mQu-WQ-fYr">
+            <objects>
+                <viewController id="qix-u0-p7c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RBp-91-Vv3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3c69bdf91a0c8f0f70299dd2e66da40f.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q7r-6f-gG9">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q7r-6f-gG9" firstAttribute="leading" secondItem="RBp-91-Vv3" secondAttribute="leadingMargin" id="9Ve-mo-2kV"/>
+                            <constraint firstItem="Q7r-6f-gG9" firstAttribute="trailing" secondItem="RBp-91-Vv3" secondAttribute="trailingMargin" id="HYh-KN-v9I"/>
+                            <constraint firstItem="Q7r-6f-gG9" firstAttribute="bottom" secondItem="xRD-MG-n4G" secondAttribute="bottom" id="phw-1A-2tK"/>
+                            <constraint firstItem="Q7r-6f-gG9" firstAttribute="top" secondItem="xRD-MG-n4G" secondAttribute="top" id="zee-0H-E1X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xRD-MG-n4G"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Syrian Hamster" image="sunrise.fill" catalog="system" id="u1P-It-hCK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JYp-2I-NBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773.913043478261" y="117.85714285714285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="AkP-of-wkm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AWi-uD-dKi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Svw-z4-J7q">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="FIl-Pt-HsC"/>
+                        <segue destination="qix-u0-p7c" kind="relationship" relationship="viewControllers" id="4Ot-KA-6eR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HdG-jq-frV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3c69bdf91a0c8f0f70299dd2e66da40f.jpg" width="352" height="500"/>
+        <image name="4596_copy.jpg" width="600" height="600"/>
+        <image name="sunrise.fill" catalog="system" width="64" height="48"/>
+        <image name="sunset.fill" catalog="system" width="64" height="48"/>
+    </resources>
+</document>
